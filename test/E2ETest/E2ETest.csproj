@@ -26,13 +26,4 @@
     <ProjectReference Include="..\..\src\ServiceDefaults\ServiceDefaults.csproj" />
   </ItemGroup>
 
-  <Target Name="InstallPlaywrightDeps" BeforeTargets="CoreBuild">
-    <PropertyGroup>
-      <_PowerShellExe>pwsh</_PowerShellExe>
-      <_PowerShellExe Condition="'$(OS)' == 'Windows_NT'">powershell</_PowerShellExe>
-      <_PlaywrightScript>$([System.IO.Path]::GetFullPath($(OutDir)))playwright.ps1</_PlaywrightScript>
-    </PropertyGroup>
-    <Exec Command="$(_PowerShellExe) -NoProfile -NoLogo -NonInteractive -ExecutionPolicy Unrestricted -Command '$(_PlaywrightScript) install chromium --with-deps'" />
-  </Target>
-
 </Project>
