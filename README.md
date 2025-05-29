@@ -55,6 +55,8 @@ This sample also demonstrates the following development practices:
 From the Terminal, at the root of the cloned repo, run:
 
 ```powershell
+# Using poetry to create a virtual environment. Did not record commands to set up.
+poetry env activate
 pip install -r src/PythonInference/requirements.txt
 ```
 

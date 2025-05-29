@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>eShopSupport.Backend</RootNamespace>
     <NoWarn>$(NoWarn);SKEXP0001;SKEXP0010;SKEXP0020</NoWarn>
+    <UserSecretsId>9837a0ee-9176-4a02-b7eb-3228f05301f2</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

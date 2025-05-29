@@ -34,7 +34,15 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonInference", "src\Pyth
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{218618B1-A99C-4174-A13C-0C2CFD065D78}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		Directory.Build.props = Directory.Build.props
 		Directory.Packages.props = Directory.Packages.props
+		nuget.config = nuget.config
+		pyproject.toml = pyproject.toml
+		README.md = README.md
+		SECURITY.md = SECURITY.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataGenerator", "seeddata\DataGenerator\DataGenerator.csproj", "{E2871C52-FBBF-44A4-A3CD-185E5F6AA7EB}"
